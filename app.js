@@ -42,7 +42,7 @@ const cancelAddMovie = () => {
 };
 
 const updateUi = () => {
-  if (movies.length == "") {
+  if (!movies.length) {
     enteryText.style.display = "block";
   } else {
     enteryText.style.display = "none";
